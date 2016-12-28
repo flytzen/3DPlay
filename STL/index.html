@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="First 3D play">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>STL Demo</title>
+</head>
+<body>
+  <h1>Samle STL manipulator</h1>
+  <p>This sample loads a <a href='resources/brain-gear.stl'>sample STL file and allows you to move it etc.</a>. It currently uses a Perspective camera, but an Ortographic camera would be better for this purpose. Etc, etc...</p>
+  <ul>
+    <li>Use arrow keys to move the object (moving on the z-axis not implemented yet)</li>
+    <li>Drag the mouse to rotate</li>
+    <li>Use two finger swipes to change the size of the object (mouse wheel, middle button etc not implemented)</li>
+  </ul>
+  <div id="mypic"/>
+  <script src="lib/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+  <script src="lib/OrbitControls.js"></script>
+  <script src="lib/STLLoader.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
